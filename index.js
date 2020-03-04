@@ -46,6 +46,6 @@ const sortTheColsMrCoder = str => {
 
 console.log(
   sortTheColsMrCoder(
-    'daryl,Andrew,arnold,Yamuna,zayne,Sally\n2465,21789,123636,15241,1987,5296\n12,16,13,14,11,15'
+    'daryl,Andrew,arnold,Yamuna,zayne,Sally\n2465,21789,123636,15241,1987,5296\n12,16,13,14,11,15\n120,160,130,140,110,150\n1200,1600,1300,1400,1100,1500'
   )
 );
