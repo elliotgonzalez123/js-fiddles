@@ -1,4 +1,4 @@
-const sortColumns = str => {
+const sortTheColsMrCoder = str => {
   let obj = [];
   let regex = /\r?\n|\r/g;
   let newStr = str.replace(regex, ',').split(',');
@@ -45,7 +45,7 @@ const sortColumns = str => {
 };
 
 console.log(
-  sortColumns(
+  sortTheColsMrCoder(
     'daryl,Andrew,arnold,Yamuna,zayne,Sally\n2465,21789,123636,15241,1987,5296\n12,16,13,14,11,15'
   )
 );
